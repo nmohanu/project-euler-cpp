@@ -3,7 +3,9 @@ int main() {
   int a = 1;
   int b = 2;
   int c = 0;
-  int sum = 0;
+
+  // Sum starts at 2 because b is even prime.
+  int sum = 2;
 
   while (b <= 4000000 && a <= 4000000) {
     c = a + b;
